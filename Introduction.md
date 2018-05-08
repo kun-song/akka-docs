@@ -14,7 +14,7 @@ Akka Streams API 与 Reactive Stream 接口完全解耦，Akka Streams 专注于
 
 两者之间的关系是：Akka Streams 接口面向最终用户设计，而其内部实现则借助 Reactive Streams 接口在不同处理阶段之间传递数据。因此 Reactive Streams 接口与 Akka Streams API 之间并无相似性，这符合 Reactive Streams 项目的设计目标，即定义不同流实现之间相互协作的接口，而非面向最终用户的 API。
 
-## How to read these docs
+## 如何阅读本文档？
 
 流式处理是一种与 Actor 模型、Future 组合完全不同的范式，因此在熟悉流相关工具、技术之前，值得花些时间仔细研究。为了达到最好效果，推荐按照如下方式学习本文档：
 
